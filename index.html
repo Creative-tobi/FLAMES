@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flames</title>
+    <link rel="stylesheet" href="./Index.css" />
+  </head>
+  <body>
+    <div">
+      <svg
+        width="50"
+        height="80"
+        viewBox="0 0 200 180"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M100 170s-70-40-70-90 40-60 70-30c30-30 70-10 70 30s-70 90-70 90z"
+          fill="#ff69b4"
+          stroke="#ff5e7d"
+          stroke-width="2" />
+      </svg>
+
+
+      <svg
+        width="50"
+        height="80"
+        viewBox="0 0 200 180"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M100 170s-70-40-70-90 40-60 70-30c30-30 70-10 70 30s-70 90-70 90z"
+          fill="#ff69b4"
+          stroke="#ff5e7d"
+          stroke-width="2" />
+      </svg>
+    </div>
+
+    <section id="container">
+      <fieldset class="heading">
+        <legend id="heading"></legend>
+        <p id="sub-heading"></p>
+      </fieldset>
+
+      <form action="" id="form">
+
+        <svg
+          width="200"
+          height="180"
+          viewBox="0 0 200 180"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M100 170s-70-40-70-90 40-60 70-30c30-30 70-10 70 30s-70 90-70 90z"
+            fill="#ff1493"
+            stroke="#e60026"
+            stroke-width="2" />
+          <text
+            x="50%"
+            y="55%"
+            text-anchor="middle"
+            fill="white"
+            font-size="18"
+            font-family="Arial"
+            dy=".3em"
+            id="final"></text>
+        </svg>
+
+        <div style="place-items: center;">
+            <input type="text" placeholder="Enter a name" id="first-name" />
+            <svg
+            width="50"
+            height="80"
+            viewBox="0 0 200 180"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M100 170s-70-40-70-90 40-60 70-30c30-30 70-10 70 30s-70 90-70 90z"
+              fill="#e60026"
+              stroke="#ff5e7d"
+              stroke-width="2" />
+          </svg>
+            <input
+              type="text"
+              placeholder="Enter your crush name"
+              id="second-name" />
+            <br />
+        </div>
+        <button onclick="flames()">Check</button> <br />
+
+        
+      </form>
+    </section>
+    <script src="./Index.js"></script>
+  </body>
+</html>
