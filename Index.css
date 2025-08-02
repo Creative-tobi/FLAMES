@@ -1,18 +1,8 @@
-/* *{
-    margin: auto;
-    padding: 0;
-} */
-
 body{
-    /* background-image: url('back4.jpg'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* object-fit: cover; */
     background-color: pink;
     color:  #FFF0F5;
 }
 #container{
-    /* border: 1px solid #e60026; */
     padding: 20px;
     width: 50%;
     margin: auto;
@@ -21,9 +11,6 @@ body{
     box-shadow:
     inset 6px 6px 12px rgba(153, 0, 71, 0.4),
     inset 6px 6px 12px rgba(153, 0, 71, 0.4); 
-
-    /* box-shadow: 8px 8px 16px rgba(153, 0, 71, 0.4), -8px -8px 12px rgba(255, 178, 214, 0.4); */
-
 }
 
 
@@ -32,9 +19,7 @@ body{
     text-align: center;
 }
 
-form{
-    place-items: center;
-}
+
 
 #heading{
     display: flex;
@@ -67,4 +52,21 @@ button{
 #final{
     font-weight: 900;
     font-size: x-large;
+}
+
+@media(max-width: 780px){
+    #container{
+        padding: 40px;
+        width: 200px;
+        place-items: center;
+    }
+
+    button{
+        width: 200px;
+        margin: 4px 0;
+    }
+
+    input{
+        margin: 0;
+    }
 }
