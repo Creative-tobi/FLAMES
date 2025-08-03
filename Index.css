@@ -3,8 +3,9 @@ body{
     color:  #FFF0F5;
 }
 #container{
-    padding: 20px;
+    padding: 40px;
     width: 50%;
+    max-width: 500px;
     margin: auto;
     border-radius: 30px;
     background-color:  #ff69b4;
@@ -29,24 +30,27 @@ body{
 
 .heading{
     width: 50%;
+    max-width: 500px;
     border-radius: 20px;
     border: 1px solid #e60026;
 }
 
 input{
     padding: 12px;
-    margin: 4px 0;
+    /* margin: 40px 0; */
     border-radius: 12px;
     border: 1px solid pink;
     background-color:  #FFDDEE;
     outline: pink;
 }
 button{
-    padding: 12px;
-    width: 30%;
+    padding: 20px 12px;
+    width: 80%;
+    max-width: 500px;
     border: none;
     background-color: #ff1493;
     color: white;
+    margin: 10px 0;
     border-radius: 12px;
 }
 #final{
@@ -55,18 +59,14 @@ button{
 }
 
 @media(max-width: 780px){
-    #container{
-        padding: 40px;
-        width: 200px;
-        place-items: center;
-    }
-
     button{
         width: 200px;
-        margin: 4px 0;
+    }
+    .style{
+        display: none;
     }
 
-    input{
+    /* input{
         margin: 0;
-    }
+    } */
 }
